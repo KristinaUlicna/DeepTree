@@ -2,9 +2,11 @@
 
 Welcome to my GitHub *DeepTree* repository, where you’ll find various Python packages & jupyter notebooks related to our latest project [publication](https://github.com/KristinaUlicna/CellComp "Team website") with the **CellX** team.
 
+
 ### PhD Project 👩‍🔬: Heterogeneity within Cell Populations 🧬
 
-![Single Cell Proliferation and Colony Expansion Heterogeneity](video.png)(https://www.linkedin.com/posts/kristinaulicna_cellcyclecontrol-microscopy-images-activity-6685890976306745344-gNFo "Single Cell Growth Heterogeneity")
+[![Single Cell Proliferation and Colony Expansion Heterogeneity](video.png)](https://www.linkedin.com/posts/kristinaulicna_cellcyclecontrol-microscopy-images-activity-6685890976306745344-gNFo)
+
 
 ### Project Status:
 
@@ -20,6 +22,7 @@ _Note: this is not the full repository (yet)_. I am currently restructuring my r
    + visualise the heterogeneity of cell cycling times on large data scales
    + use our massive data repository to understand how cell cycling is descended across multiple downstream generations
    + exploit visibly heritable cycling patterns in extended cell families in automatically reconstructed, multi-generational, deep lineage trees in a **fully unsupervised** manner
+
 
 ### Prerequisites & Dependencies Installation
 
