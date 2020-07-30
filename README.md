@@ -4,7 +4,7 @@ Welcome to my GitHub *DeepTree* repository, where you’ll find various Python p
 
 ### PhD Project 👩‍🔬: Heterogeneity within Cell Populations 🧬
 
-![Single Cell Proliferation and Colony Expansion Heterogeneity](video.tiff)(https://www.linkedin.com/posts/kristinaulicna_cellcyclecontrol-microscopy-images-activity-6685890976306745344-gNFo "Single Cell Growth Heterogeneity")
+![Single Cell Proliferation and Colony Expansion Heterogeneity](video.png)(https://www.linkedin.com/posts/kristinaulicna_cellcyclecontrol-microscopy-images-activity-6685890976306745344-gNFo "Single Cell Growth Heterogeneity")
 
 ### Project Status:
 
