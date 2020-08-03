@@ -5,8 +5,8 @@
    + use our massive data repository to understand how cell cycling is descended across multiple downstream generations
    + exploit visibly heritable cycling patterns in extended cell families in automatically reconstructed, multi-generational, deep lineage trees in a **fully unsupervised** manner
 
-![DeepTree Large Scale Lineage Data Analysis](../pipeline.png)
-
+![Graphical Abstract](../graph_abstract.png)
+**Biological Problem as the Motivation of the Research Study** -> *Cell cycling heterogeneity within single cells is linked to the clone division capacity. An illustration depicts how inherent diversity in cell cycle durations results in populating different progeny size by individual cell clones over identical time period. In this paper, we exploited the cell cycling duration heritability phenomenon, as to whether cells resemble their parents’ cycling durations, and investigated the patterns of cell cycling correlations in large dataset of deep, automatically reconstructed multi-generational lineage trees.*
 
 ### Authors, Acknowledgments & Credits
 

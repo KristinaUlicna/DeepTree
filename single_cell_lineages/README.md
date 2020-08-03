@@ -5,8 +5,9 @@
    + map the intrinsic heterogeneity of the cell cycle durations & colony expansion capacity by individual clones
    + investigate the structure of stored cell segmentation, classification & tracking data by our `bTrack` pipeline
 
-![Single-Cell Heterogeneity"](../video.png)
 
+![Single Cell Heterogeneity](../initial_frame.tiff)
+**Single Cell Proliferation and Colony Expansion Heterogeneity** -> [click here to start video](https://www.linkedin.com/posts/kristinaulicna_cellcyclecontrol-microscopy-images-activity-6685890976306745344-gNFo) -> *A sequence of colourised binary masks with segmented individual cells (grey) on background (black), highlighting cell proliferation throughout the duration of a representative 1193 frame-long movie (~80 hours). Highlighted are the founder cells and progeny corresponding to slow (orange), medium (blue) and fast (green) dividers.*
 
 ### Authors, Acknowledgments & Credits
 

@@ -5,8 +5,8 @@ Welcome to my GitHub *DeepTree* repository, where you’ll find various Python p
 
 ### PhD Project 👩‍🔬: Heterogeneity within Cell Populations 🧬
 
-[![Single Cell Proliferation and Colony Expansion Heterogeneity](initial_frame.tiff)](https://www.linkedin.com/posts/kristinaulicna_cellcyclecontrol-microscopy-images-activity-6685890976306745344-gNFo)
-
+![Segmentation, Classification & Tracking Pipeline](track_pipeline.png)
+Single Cell Proliferation and Colony Expansion Heterogeneity -> *Our custom-designed framework consists of deep learning-based cell annotation steps on pairs of transmission and fluorescence time-lapse microscopy images. Low-contrast fluorescence images represent an input to the cell segmentation network built using residual U-Net architecture, which separates individual cell nuclei (white) from background (black) by performing a pixel-wise cell vs. non-cell classification, yielding a binary segmentation masks. Localisation coordinates for each individual cell from the segmentation mask are used to crop an 80 x 80 pixel image glimpse centred around the cell nucleus from both transmission and fluorescence images, which serve as inputs to a convolutional neural network-based classifier to label instantaneous cell state based on cell morphology and nucleic acid condensation level. Labels indicate whether the cell is in interphase (grey), prophase (cyan), metaphase (magenta), anaphase (gold) or undergoes apoptosis (red). A full sequence of fully annotated fields of view capturing the duration of the time-lapse microscopy movies are supplied into the bTrack tracking algorithm, which reconstructs individual cell trajectories & stores the parent-children relationships to be extracted as 2D lineage tree visualisations.*
 
 ### Project Status:
 
