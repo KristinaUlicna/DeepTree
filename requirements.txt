@@ -2,5 +2,7 @@ numpy
 scipy
 h5py
 tqdm
+time
+timedate
 matplotlib
 scikit-image

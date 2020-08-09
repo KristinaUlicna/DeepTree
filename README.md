@@ -13,6 +13,11 @@ Welcome to my GitHub *DeepTree* repository, where you’ll find various Python p
 WORK IN PROGRESS (Last update: 2020/08/03).
 _Note: this is not the full repository (yet)_. I am currently restructuring my repo, so please bear with me while I do so. Once completed, you will find my code & supplementary [iPython](https://ipython.org/notebook.html "Jupyter Notebooks") notebooks divided into these sections:
 
+- **tracking_performance:**
+   + learn how tracking results can be interpreted on image segmentation masks of low-contrast microscopy images
+   + evaluate how well our deep learning & `bTrack` algorithm-based pipeline maintains the identities & trajectories of individual cells over long periods of time
+   + visualise which cells can be tracked back to the very beginning of the movie (*survivor*; cyan), which cells migrated into the field of view (*incomer*; yellow), and where track breakage occurred (*mistrack*; red) to quickly identify & correct tracking errors
+
 - **single_cell_lineages:**
    + observe individual cell lineage tree representations from example time-lapse microscopy movie
    + map the intrinsic heterogeneity of the cell cycle durations & colony expansion capacity by individual clones
@@ -26,7 +31,7 @@ _Note: this is not the full repository (yet)_. I am currently restructuring my r
 
 ### Installation Prerequisites & Dependencies
 
-All code in the *DeepTree* repository is written in Python and has been tested with Python 3.7+ on OS X. Most of the packages require the following additional packages, namely `numpy, scipy, h5py, matplotlib, tqdm`. For convenience, you can just run the following code to install all the dependencies:
+All code in the *DeepTree* repository is written in Python and has been tested with Python 3.7+ on OS X. Most of the packages require the following additional packages, namely `numpy, scipy, h5py, matplotlib, time, timedate, tqdm, scikit-image`. For convenience, you can just run the following code to install all the dependencies:
 
 `$ pip install -r requirements.txt`
 
