@@ -1,5 +1,4 @@
 # Directory files to ignore:
-example_segment_classif_tracked_movie.hdf5
 Server_Movies_Paths.py
 
 # Byte-compiled / optimized / DLL files
