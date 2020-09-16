@@ -8,7 +8,7 @@
 
 ![Survivor Incomer Mistrack "Cell Status"](../tracker_efficiency.png)
 
-**Separation of Cells based on Their Tracking Status** -> _A colourised binary mask of a time-lapse microscopy field of view of medium confluency with individual cells highlighted as **survivors** if they can be tracked since the initial movie frame (cyan), **incomers** if they migrated into the field of view throughout the movie (yellow) or **mistracks** if an error occurred in the automated trajectory reconstruction._
+**Separation of Cells based on Their Tracking Status** -> _A colourised binary mask of a time-lapse microscopy field of view of medium confluency with individual cells highlighted as **survivors** if they can be tracked since the initial movie frame (cyan), **incomers** if they migrated into the field of view throughout the movie (yellow) or **mistracks** if an error occurred in the automated trajectory reconstruction (red)._
 
 ### Authors, Acknowledgments & Credits
 

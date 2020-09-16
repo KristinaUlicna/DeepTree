@@ -1,6 +1,7 @@
 # 🌳 *DeepTree* 🌳
 
-Welcome to my GitHub *DeepTree* repository, where you’ll find various Python packages & jupyter notebooks related to our latest project [publication](https://github.com/KristinaUlicna/CellComp "Team website") with the **CellX** team.
+Welcome to my GitHub *DeepTree* repository, where you’ll find various Python packages & Jupyter (iPython) notebooks related to our **latest project publication**:
+[Automated deep lineage tree analysis using a Bayesian single cell tracking approach](https://www.biorxiv.org/content/10.1101/2020.09.10.276980v1 "Link to bioRxiv") with the **CellX** team.
 
 
 ## PhD Project 👩‍🔬: Heterogeneity within Cell Populations 🧬
@@ -10,7 +11,7 @@ Welcome to my GitHub *DeepTree* repository, where you’ll find various Python p
 
 ### Project Status
 
-WORK IN PROGRESS (Last update: 2020/08/03).
+WORK IN PROGRESS (Last update: 2020/09/16).
 _Note: this is not the full repository (yet)_. I am currently restructuring my repo, so please bear with me while I do so. Once completed, you will find my code & supplementary [iPython](https://ipython.org/notebook.html "Jupyter Notebooks") notebooks divided into these sections:
 
 - **tracking_performance:**
@@ -35,11 +36,40 @@ All code in the *DeepTree* repository is written in Python and has been tested w
 
 `$ pip install -r requirements.txt`
 
+---
+### Integration into the Cell Tracking Pipeline
 
+*DeepTree* is a final node of the entire ```Cell Tracking``` pipeline. Interested in learning more? Visit our project [GitHub repository](https://github.com/KristinaUlicna/CellTracking "QuantumJot Cell Tracking GitHub Repository") to learn more about the cell tracking algorithm ```bTrack```, our tracker graphical user interface ```Arboretum``` and much more!
+
+---
 ### Authors, Acknowledgments & Credits
 
 The code committed to this repository was written by Kristina Ulicna (see the [LICENSE.md](../LICENSE.md "Kristina's LICENSE.md file") for more details) and sources from our custom-designed `CellTracking` library ([CellTracking on Github](https://github.com/quantumjot/CellTracking "Cell Tracking Repository" )), which was developed for microscopy data analysis by Dr Alan R. Lowe at UCL. For more information see our [CellX group website](http://lowe.cs.ucl.ac.uk/cellx.html "CellX group website").
 
 If you are interested to learn more, please -> ⭐ <- the repository & don't hesitate to contact me directly via [email](mailto:kristina.smith.ulicna@gmail.com "Click to Email Me") or my [LinkedIn](https://www.linkedin.com/in/kristinaulicna/ "Kristina's LinkedIn Profile") or [Twitter](https://twitter.com/KristinaUlicna "Kristina's Twitter Profile") profile.
+
+---
+### Citation
+
+More details of how this type of single-cell tracking & lineage analysis approach can be applied to tracking cells in time-lapse microscopy data can be found in the following publications:
+
+**Automated deep lineage tree analysis using a Bayesian single cell tracking approach**  
+Ulicna K, Vallardi G, Charras G and Lowe AR.  
+*bioRxiv* (2020)  
+<https://www.biorxiv.org/content/early/2020/09/10/2020.09.10.276980>
+
+```
+@article {Ulicna2020.09.10.276980,
+  author = {Ulicna, Kristina and Vallardi, Giulia and Charras, Guillaume and Lowe, Alan R.},
+  title = {Automated deep lineage tree analysis using a Bayesian single cell tracking approach},
+  elocation-id = {2020.09.10.276980},
+  year = {2020},
+  doi = {10.1101/2020.09.10.276980},
+  publisher = {Cold Spring Harbor Laboratory},
+  URL = {https://www.biorxiv.org/content/early/2020/09/10/2020.09.10.276980},
+  eprint = {https://www.biorxiv.org/content/early/2020/09/10/2020.09.10.276980.full.pdf},
+  journal = {bioRxiv}
+}
+```
 
 ![Key Words of my PhD project "Word cloud summarising the key words of my PhD project"](wordcloud.png)
