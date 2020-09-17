@@ -1,4 +1,20 @@
 # Directory files to ignore:
+
+# example_segment_classif_tracked_movie.hdf5
+
+# HOW TO UPLOAD TO GITHUB WHEN OVER 100MB?
+
+# brew install git-lfs
+# git lfs install
+
+# ...create .gitattributes file:
+# git lfs track 'example_segment_classif_tracked_movie.hdf5'
+
+# ...when pushing to GitHub:
+# git lfs push --all origin master
+# git push -u origin master
+
+
 Server_Movies_Paths.py
 
 # Byte-compiled / optimized / DLL files

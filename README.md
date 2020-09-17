@@ -4,6 +4,8 @@ Welcome to my GitHub *DeepTree* repository, where you’ll find various Python p
 
 [Automated deep lineage tree analysis using a Bayesian single cell tracking approach](https://www.biorxiv.org/content/10.1101/2020.09.10.276980v1 "Link to bioRxiv") with the **CellX** team.
 
+Check out my **DeepTree** project poster on [this link](https://github.com/KristinaUlicna/DeepTree/blob/master/DeepTree_Poster.pdf "DeepTree Project Poster") or below:
+![DeepTree Project Poster](DeepTree_Poster.pdf)
 
 ## PhD Project 👩‍🔬: Heterogeneity within Cell Populations 🧬
 
