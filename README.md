@@ -1,17 +1,21 @@
 # 🌳 *DeepTree* 🌳
 
-Welcome to my GitHub *DeepTree* repository, where you’ll find various Python packages & Jupyter (iPython) notebooks related to our **latest project publication**:
+Welcome to my GitHub *DeepTree* repository, where you’ll find various Python packages & Jupyter (iPython) notebooks related to our **DeepTree** project:
 
-[Automated deep lineage tree analysis using a Bayesian single cell tracking approach](https://www.biorxiv.org/content/10.1101/2020.09.10.276980v1 "Link to bioRxiv") with the **CellX** team.
++ **Project preprint on bioRxiv**: [Automated deep lineage tree analysis using a Bayesian single cell tracking approach](https://www.biorxiv.org/content/10.1101/2020.09.10.276980v1 "Link to bioRxiv") with the **CellX** team.
 
-Check out my **DeepTree** project poster on [this link](https://github.com/KristinaUlicna/DeepTree/blob/master/DeepTree_Poster.pdf "DeepTree Project Poster") or below:
-![DeepTree Project Poster](DeepTree_Poster.pdf)
++ **Project poster on GitHub**: [DeepTree Poster PDF version](https://github.com/KristinaUlicna/DeepTree/blob/master/DeepTree_Poster.pdf "DeepTree Project Poster")
 
+![DeepTree Project Poster](DeepTree_Poster.png)
+
+
+---
 ## PhD Project 👩‍🔬: Heterogeneity within Cell Populations 🧬
 
 ![Segmentation, Classification & Tracking Pipeline](track_pipeline.png)
 **Single Cell Proliferation and Colony Expansion Heterogeneity** -> *Our custom-designed framework consists of deep learning-based cell annotation steps on pairs of transmission and fluorescence time-lapse microscopy images. Low-contrast fluorescence images represent an input to the cell segmentation network built using residual U-Net architecture, which separates individual cell nuclei (white) from background (black) by performing a pixel-wise cell vs. non-cell classification, yielding a binary segmentation masks. Localisation coordinates for each individual cell from the segmentation mask are used to crop an 80 x 80 pixel image glimpse centred around the cell nucleus from both transmission and fluorescence images, which serve as inputs to a convolutional neural network-based classifier to label instantaneous cell state based on cell morphology and nucleic acid condensation level. Labels indicate whether the cell is in interphase (grey), prophase (cyan), metaphase (magenta), anaphase (gold) or undergoes apoptosis (red). A full sequence of fully annotated fields of view capturing the duration of the time-lapse microscopy movies are supplied into the bTrack tracking algorithm, which reconstructs individual cell trajectories & stores the parent-children relationships to be extracted as 2D lineage tree visualisations.*
 
+---
 ### Project Status
 
 WORK IN PROGRESS (Last update: 2020/09/16).
@@ -32,7 +36,7 @@ _Note: this is not the full repository (yet)_. I am currently restructuring my r
    + use our massive data repository to understand how cell cycling is descended across multiple downstream generations
    + exploit visibly heritable cycling patterns in extended cell families in automatically reconstructed, multi-generational, deep lineage trees in a **fully unsupervised** manner
 
-
+---
 ### Installation Prerequisites & Dependencies
 
 All code in the *DeepTree* repository is written in Python and has been tested with Python 3.7+ on OS X. Most of the packages require the following additional packages, namely `numpy, scipy, h5py, matplotlib, time, timedate, tqdm, scikit-image`. For convenience, you can just run the following code to install all the dependencies:
